@@ -6,6 +6,6 @@ app.get('/', (req,res) => {
     res.send("Welcome to the hhome page")
 })
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log("wazauppp")
 })
