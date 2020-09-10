@@ -6,6 +6,7 @@ app.get('/', (req,res) => {
     res.send("Welcome to the hhome page")
 })
 
-app.listen(80, () => {
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
     console.log("wazauppp")
 })
